@@ -1,6 +1,6 @@
 <!-- i18n-source: 07-plugins/documentation/templates/function-docs.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 함수: `functionName`
 

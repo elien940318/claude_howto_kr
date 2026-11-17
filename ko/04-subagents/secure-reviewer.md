@@ -5,8 +5,8 @@ tools: Read, Grep
 model: inherit
 ---
 <!-- i18n-source: 04-subagents/secure-reviewer.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 보안 코드 리뷰어
 

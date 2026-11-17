@@ -1,6 +1,6 @@
 <!-- i18n-source: 07-plugins/pr-review/README.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../../../resources/logos/claude-howto-logo-dark.svg">

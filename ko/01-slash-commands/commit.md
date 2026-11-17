@@ -4,8 +4,8 @@ argument-hint: [message]
 description: 컨텍스트를 사용하여 git 커밋 생성
 ---
 <!-- i18n-source: 01-slash-commands/commit.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 ## 컨텍스트
 

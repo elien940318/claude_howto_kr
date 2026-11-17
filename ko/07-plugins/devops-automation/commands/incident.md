@@ -2,8 +2,8 @@
 description: 체계적인 대응 절차를 통해 운영 환경의 장애를 처리합니다.
 ---
 <!-- i18n-source: 07-plugins/devops-automation/commands/incident.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 장애 대응
 

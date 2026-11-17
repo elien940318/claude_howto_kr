@@ -5,8 +5,8 @@ tools: Read, Edit, Bash, Grep, Glob
 model: inherit
 ---
 <!-- i18n-source: 04-subagents/performance-optimizer.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 성능 최적화 에이전트
 

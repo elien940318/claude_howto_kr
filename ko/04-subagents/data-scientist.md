@@ -5,8 +5,8 @@ tools: Bash, Read, Write
 model: sonnet
 ---
 <!-- i18n-source: 04-subagents/data-scientist.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 데이터 사이언티스트 에이전트
 

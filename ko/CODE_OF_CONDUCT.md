@@ -1,6 +1,6 @@
 <!-- i18n-source: CODE_OF_CONDUCT.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 기여자 행동 강령
 

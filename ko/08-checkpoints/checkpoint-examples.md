@@ -1,6 +1,6 @@
 <!-- i18n-source: 08-checkpoints/checkpoint-examples.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 체크포인트 예제(Checkpoints and Rewind Examples)
 

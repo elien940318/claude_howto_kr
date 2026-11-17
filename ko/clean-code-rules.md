@@ -1,6 +1,6 @@
 <!-- i18n-source: clean-code-rules.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # AI 코드 생성을 위한 클린 코드 규칙
 

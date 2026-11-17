@@ -3,8 +3,8 @@ name: doc-generator
 description: 소스 코드로부터 포괄적이고 정확한 API 문서를 생성합니다. API 문서를 생성하거나 업데이트할 때, OpenAPI 사양을 생성할 때, 또는 사용자가 API 문서, 엔드포인트, 문서를 언급할 때 사용합니다.
 ---
 <!-- i18n-source: 03-skills/doc-generator/SKILL.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # API 문서 생성기 기능
 

@@ -4,8 +4,8 @@ description: 모든 커뮤니케이션이 브랜드 보이스 및 톤 가이드�
 user-invocable: false
 ---
 <!-- i18n-source: 03-skills/brand-voice/SKILL.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 브랜드 보이스 스킬
 

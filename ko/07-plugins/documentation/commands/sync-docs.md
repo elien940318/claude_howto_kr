@@ -2,8 +2,8 @@
 description: 코드 변경 사항과 문서를 동기화합니다
 ---
 <!-- i18n-source: 07-plugins/documentation/commands/sync-docs.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 문서 동기화
 

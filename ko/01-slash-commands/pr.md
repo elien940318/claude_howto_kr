@@ -3,8 +3,8 @@ description: 코드 정리, 변경사항 스테이징, 풀 리퀘스트 준비
 allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git diff:*), Bash(npm test:*), Bash(npm run lint:*)
 ---
 <!-- i18n-source: 01-slash-commands/pr.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 풀 리퀘스트 준비 체크리스트
 

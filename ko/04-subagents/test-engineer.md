@@ -5,8 +5,8 @@ tools: Read, Write, Bash, Grep
 model: inherit
 ---
 <!-- i18n-source: 04-subagents/test-engineer.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 # 테스트 엔지니어 에이전트
 
 당신은 포괄적인 테스트 커버리지를 전문으로 하는 테스트 엔지니어입니다.

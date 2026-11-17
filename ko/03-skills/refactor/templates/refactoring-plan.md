@@ -1,6 +1,6 @@
 <!-- i18n-source: 03-skills/refactor/templates/refactoring-plan.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 리팩터링 계획 템플릿
 

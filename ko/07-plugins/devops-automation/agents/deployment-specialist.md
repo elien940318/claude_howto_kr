@@ -4,8 +4,8 @@ description: 모든 배포 작업을 담당합니다.
 tools: Read, Write, Bash, Grep
 ---
 <!-- i18n-source: 07-plugins/devops-automation/agents/deployment-specialist.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 배포 전문가
 

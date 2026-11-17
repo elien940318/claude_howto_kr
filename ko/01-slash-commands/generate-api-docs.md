@@ -2,8 +2,8 @@
 description: 소스 코드로부터 포괄적인 API 문서를 생성합니다.
 ---
 <!-- i18n-source: 01-slash-commands/generate-api-docs.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # API 문서 생성기
 

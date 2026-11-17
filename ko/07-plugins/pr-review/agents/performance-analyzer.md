@@ -4,8 +4,8 @@ description: 성능 영향 분석
 tools: Read, Grep, Bash
 ---
 <!-- i18n-source: 07-plugins/pr-review/agents/performance-analyzer.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 성능 분석기
 

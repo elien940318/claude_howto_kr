@@ -1,6 +1,6 @@
 <!-- i18n-source: 03-skills/brand-voice/tone-examples.md -->
-<!-- i18n-source-sha: b968f42 -->
-<!-- i18n-date: 2026-10-31 -->
+<!-- i18n-source-sha: 5609e68 -->
+<!-- i18n-date: 2026-11-15 -->
 
 # 브랜드 보이스 톤 예시
 
