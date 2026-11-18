@@ -14,37 +14,39 @@
 ### Slash Commands
 ```bash
 # 모두 설치
-cp 01-slash-commands/*.md .claude/commands/
+cp ko/01-slash-commands/*.md .claude/commands/
 
 # 특정 명령만 설치
-cp 01-slash-commands/optimize.md .claude/commands/
+cp ko/01-slash-commands/optimize.md .claude/commands/
 ```
 
 ### Memory
 ```bash
 # 프로젝트 메모리
-cp 02-memory/project-CLAUDE.md ./CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md ./CLAUDE.md
 
 # 개인 메모리
-cp 02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
+cp ko/02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
 ### Skills
 ```bash
 # 개인 Skills
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 
 # 프로젝트 Skills
 cp -r 03-skills/code-review-specialist .claude/skills/
+cp -r ko/03-skills/code-review-specialist/. .claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 ```
 
 ### Subagents
 ```bash
 # 모두 설치
-cp 04-subagents/*.md .claude/agents/
+cp ko/04-subagents/*.md .claude/agents/
 
 # 특정 Subagent 설치
-cp 04-subagents/code-reviewer.md .claude/agents/
+cp ko/04-subagents/code-reviewer.md .claude/agents/
 ```
 
 ### MCP
@@ -145,15 +147,16 @@ claude -r "session"    # 이름 또는 ID로 세션 재개
 ### 코드 리뷰
 ```bash
 # 방법 1: Slash Command
-cp 01-slash-commands/optimize.md .claude/commands/
+cp ko/01-slash-commands/optimize.md .claude/commands/
 # 사용: /optimize
 
 # 방법 2: Subagent
-cp 04-subagents/code-reviewer.md .claude/agents/
+cp ko/04-subagents/code-reviewer.md .claude/agents/
 # 사용: 자동 위임
 
 # 방법 3: Skill
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 # 사용: 자동 호출
 
 # 방법 4: Plugin (권장)
@@ -164,13 +167,14 @@ claude --plugin-dir ./07-plugins/pr-review
 ### 문서 작성
 ```bash
 # Slash Command
-cp 01-slash-commands/generate-api-docs.md .claude/commands/
+cp ko/01-slash-commands/generate-api-docs.md .claude/commands/
 
 # Subagent
-cp 04-subagents/documentation-writer.md .claude/agents/
+cp ko/04-subagents/documentation-writer.md .claude/agents/
 
 # Skill
 cp -r 03-skills/doc-generator ~/.claude/skills/
+cp -r ko/03-skills/doc-generator/. ~/.claude/skills/doc-generator/   # 한국어 문서로 덮어쓰기
 
 # Plugin (완전한 솔루션)
 claude --plugin-dir ./07-plugins/documentation
@@ -187,7 +191,7 @@ claude --plugin-dir ./07-plugins/devops-automation
 ### 팀 표준 관리
 ```bash
 # 프로젝트 Memory
-cp 02-memory/project-CLAUDE.md ./CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md ./CLAUDE.md
 
 # 팀에 맞게 수정
 vim CLAUDE.md
@@ -346,7 +350,7 @@ remind me in 30 minutes to check the deploy
 cat README.md
 
 # 명령어 설치
-cp 01-slash-commands/optimize.md .claude/commands/
+cp ko/01-slash-commands/optimize.md .claude/commands/
 
 # 실행
 /optimize
@@ -355,11 +359,11 @@ cp 01-slash-commands/optimize.md .claude/commands/
 ### Day 2-3
 ```bash
 # Memory 설정
-cp 02-memory/project-CLAUDE.md ./CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md ./CLAUDE.md
 vim CLAUDE.md
 
 # Subagent 설치
-cp 04-subagents/code-reviewer.md .claude/agents/
+cp ko/04-subagents/code-reviewer.md .claude/agents/
 ```
 
 ### Day 4-5
@@ -376,6 +380,7 @@ cp 05-mcp/github-mcp.json .mcp.json
 ```bash
 # Skill 설치
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 
 # 자동 호출 사용
 # 다음과 같이 입력하기만 하면 됩니다: "Review this code for issues"

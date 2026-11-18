@@ -153,29 +153,31 @@ cd claude-howto
 
 # 2. Copy your first slash command
 mkdir -p /path/to/your-project/.claude/commands
-cp 01-slash-commands/optimize.md /path/to/your-project/.claude/commands/
+cp ko/01-slash-commands/optimize.md /path/to/your-project/.claude/commands/
 
 # 3. Try it — in Claude Code, type:
 # /optimize
 
 # 4. Ready for more? Set up project memory:
-cp 02-memory/project-CLAUDE.md /path/to/your-project/CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md /path/to/your-project/CLAUDE.md
 
 # 5. Install a skill:
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 ```
 
 전체 설정을 원하시나요? 다음은 **1시간 핵심 설정 가이드**입니다.
 
 ```bash
 # Slash commands (15 min)
-cp 01-slash-commands/*.md .claude/commands/
+cp ko/01-slash-commands/*.md .claude/commands/
 
 # Project memory (15 min)
-cp 02-memory/project-CLAUDE.md ./CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md ./CLAUDE.md
 
 # Install a skill (15 min)
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 
 # Weekend goal: add hooks, subagents, MCP, and plugins
 # Follow the learning path for guided setup
@@ -279,16 +281,17 @@ MIT 라이선스로 제공됩니다. 영구적으로 무료입니다. 자유롭�
 
 ```bash
 # Slash Commands
-cp 01-slash-commands/*.md .claude/commands/
+cp ko/01-slash-commands/*.md .claude/commands/
 
 # Memory
-cp 02-memory/project-CLAUDE.md ./CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md ./CLAUDE.md
 
 # Skills
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 
 # Subagents
-cp 04-subagents/*.md .claude/agents/
+cp ko/04-subagents/*.md .claude/agents/
 
 # MCP
 claude mcp add --transport http github https://api.githubcopilot.com/mcp/ --header "Authorization: Bearer YOUR_GITHUB_PAT"
@@ -327,7 +330,7 @@ claude --plugin-dir ./07-plugins/pr-review
 
 **설치**:
 ```bash
-cp 01-slash-commands/*.md /path/to/project/.claude/commands/
+cp ko/01-slash-commands/*.md /path/to/project/.claude/commands/
 ```
 
 **사용 방법**:
@@ -356,13 +359,13 @@ cp 01-slash-commands/*.md /path/to/project/.claude/commands/
 **설치**:
 ```bash
 # Project memory
-cp 02-memory/project-CLAUDE.md /path/to/project/CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md /path/to/project/CLAUDE.md
 
 # Directory memory
-cp 02-memory/directory-api-CLAUDE.md /path/to/project/src/api/CLAUDE.md
+cp ko/02-memory/directory-api-CLAUDE.md /path/to/project/src/api/CLAUDE.md
 
 # Personal memory
-cp 02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
+cp ko/02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
 **사용 방법**: Claude가 자동으로 로드합니다.
@@ -385,9 +388,11 @@ cp 02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
 ```bash
 # Personal skills
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 
 # Project skills
 cp -r 03-skills/code-review-specialist /path/to/project/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. /path/to/project/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 ```
 
 **사용 방법**: 관련 작업 시 자동으로 호출됩니다.
@@ -410,7 +415,7 @@ cp -r 03-skills/code-review-specialist /path/to/project/.claude/skills/
 
 **설치**:
 ```bash
-cp 04-subagents/*.md /path/to/project/.claude/agents/
+cp ko/04-subagents/*.md /path/to/project/.claude/agents/
 ```
 
 **사용 방법**: 메인 에이전트가 필요에 따라 자동으로 작업을 위임합니다.

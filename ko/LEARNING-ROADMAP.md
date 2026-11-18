@@ -142,10 +142,10 @@ graph TD
 ```bash
 # Exercise 1: Install your first slash command
 mkdir -p .claude/commands
-cp 01-slash-commands/optimize.md .claude/commands/
+cp ko/01-slash-commands/optimize.md .claude/commands/
 
 # Exercise 2: Create project memory
-cp 02-memory/project-CLAUDE.md ./CLAUDE.md
+cp ko/02-memory/project-CLAUDE.md ./CLAUDE.md
 
 # Exercise 3: Try it out
 # In Claude Code, type: /optimize
@@ -249,6 +249,7 @@ cat error.log | claude -p "explain this error"
 ```bash
 # Exercise 1: Install a skill
 cp -r 03-skills/code-review-specialist ~/.claude/skills/
+cp -r ko/03-skills/code-review-specialist/. ~/.claude/skills/code-review-specialist/   # 한국어 문서로 덮어쓰기
 
 # Exercise 2: Set up hooks
 mkdir -p ~/.claude/hooks
@@ -313,7 +314,7 @@ claude mcp add --transport http github https://api.githubcopilot.com/mcp/ --head
 
 # Exercise 3: Install subagents
 mkdir -p .claude/agents
-cp 04-subagents/*.md .claude/agents/
+cp ko/04-subagents/*.md .claude/agents/
 ```
 
 #### 통합 과제
@@ -535,7 +536,7 @@ done
 ### 15분만 있다면
 **목표**: 첫 번째 성공 경험 얻기
 
-1. 슬래시 명령어 하나 복사: `cp 01-slash-commands/optimize.md .claude/commands/`
+1. 슬래시 명령어 하나 복사: `cp ko/01-slash-commands/optimize.md .claude/commands/`
 2. Claude Code에서 시도: `/optimize`
 3. 읽기: [01-slash-commands/README.md](01-slash-commands/README.md)
 
