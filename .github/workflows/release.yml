@@ -8,7 +8,7 @@ on:
 env:
   # Languages the release job expects an EPUB for. Keep in sync with the build
   # matrix below, `test.yml` build-epub, and `scripts/build_epub.py` lang_map.
-  LANGUAGES: en vi zh ja ko fa
+  LANGUAGES: en ko
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
       matrix:
         # Keep in sync with LANGUAGES above, `test.yml` build-epub, and
         # `scripts/build_epub.py` lang_map.
-        lang: [en, vi, zh, ja, ko, fa]
+        lang: [en, ko]
 
     steps:
       - uses: actions/checkout@v4

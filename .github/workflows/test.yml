@@ -167,7 +167,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        lang: [en, vi, zh, ja, ko, fa]
+        lang: [en, ko]
 
     steps:
       - name: Checkout code
